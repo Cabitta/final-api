@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class InquilinoMapper {
+    //TODO: descomentar
+    /*
     public InquilinoDTO toDto(InquilinoEntity entity) {
         return InquilinoDTO.builder()
                 .contacto(entity.getContacto())
@@ -20,4 +22,6 @@ public class InquilinoMapper {
                 .departamento(dto.getDepartamento())
                 .build();
     }
+
+     */
 }
