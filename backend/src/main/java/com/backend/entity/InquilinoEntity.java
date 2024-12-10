@@ -25,5 +25,4 @@ public class InquilinoEntity {
 
     @OneToMany(mappedBy = "inquilino", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ReservaEntity> reservas;
-
 }
